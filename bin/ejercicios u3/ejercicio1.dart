@@ -11,6 +11,8 @@ void main() {
 
   if (tunota >= 11) {
     stdout.writeln("tu eres tonto?");
+  } else if (tunota == 0) {
+    stdout.writeln("ERES RETRASADO TONTO");
   } else if (tunota < 5) {
     stdout.writeln("suspendiste campeon");
   } else if (tunota < 6) {
