@@ -9,7 +9,7 @@ void main() {
   String nota = stdin.readLineSync() ?? "0";
   int tunota = int.tryParse(nota) ?? 0;
 
-  if (tunota >= 11) {
+  if (tunota >= 11 || tunota < 0) {
     stdout.writeln("tu eres tonto?");
   } else if (tunota == 0) {
     stdout.writeln("ERES RETRASADO TONTO");
