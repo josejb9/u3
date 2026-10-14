@@ -24,4 +24,6 @@ void main() {
   } else {
     stdout.writeln("10 bro");
   }
+
+  print(" tu nota es; $tunota"); //borrar despues
 }
